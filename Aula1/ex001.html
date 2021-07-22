@@ -9,7 +9,34 @@
     
 </head>
 <body>
-    
-    
-</body>
+    <div class="container">
+      <h1 class="page-title">
+        Conversor de moedas
+      </h1>
+      <p class="page-subtitle">
+        Descubra os valores em dolar U$
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+    </div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+        </a>
+        <script>
+
+            var valorEmDolarTexto = prompt("Qual o valor em dolar que você quer converter?")
+
+            var ValorEmDolarNumero = parseFloat(valorEmDolarTexto)
+
+            var valorEmReal = ValorEmDolarNumero * 5.50
+            var valorEmRealFixado = valorEmReal.toFixed(2) //toFixed serve para fixar quantas casas vai ter no caso de 2 significa que vai ter 2 casas depois da vírgula.
+
+            alert(valorEmRealFixado)
+            /*Revisão
+            Variáveis var int - float - string
+            alert - parseInt - parseFloat - prompt
+            operações + somar * multiplicar
+            */
+
+        </script>
+  </body>
 </html>
