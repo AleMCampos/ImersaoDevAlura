@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Conversor de moedas</title>
+    <title>Imersão Dev - Aula 01</title>
     <link rel="stylesheet" href="style.css">
     
 </head>
@@ -24,7 +24,7 @@
         <script>
 
             var valorEmDolarTexto = prompt("Qual o valor em dolar que você quer converter?")
-            var ValorEmDolarNumero = parseFloat(valorEmDolarTexto)
+            var ValorEmDolarNumero = parseFloat(valorEmDolarTexto)//parseInt ou parseFloat serve para converter para número, pois o prompt  entende em formato de testo.
             var valorEmReal = ValorEmDolarNumero * 5.50
             var valorEmRealFixado = valorEmReal.toFixed(2) //toFixed serve para fixar quantas casas vai ter no caso de 2 significa que vai ter 2 casas depois da vírgula.
 
